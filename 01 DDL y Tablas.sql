@@ -1,7 +1,12 @@
 /*
-Test 3 – Consultas SQL
-Table of transactions (Transaction_ID, Item_ID, quantity, purchase_date (MM/DD/YY))
-Table of prices (Item_ID, price)
+Test:
+
+ Given a table of transactions (Transaction_ID, Item_ID, quantity, purchase_date (MM/DD/YY)) and another table of prices (Item_ID, price), give the following information: 
+Total number, average and standard deviation of purchase quantities per weekday (Monday­Friday) ordered by descending number of purchases. 
+Total revenue of items that are sold more than 20 times in 2017.
+Date with the highest and lowest total purchase quantity.
+For each item get the transaction_ID with the highest quantity.
+
 */
 
 
